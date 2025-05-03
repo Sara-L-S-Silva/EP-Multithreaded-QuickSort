@@ -21,13 +21,6 @@
 ## 4.Cores no Terminal:
         O arquivo color.c define macros para exibir mensagens coloridas no terminal, facilitando a visualização de informações.
 
-# Formato de Execução:
-./ep <arquivoDeEntrada> <arquivoDeSaida> <numeroDeThreads>
-
-
-* <arquivoDeEntrada>: Caminho para o arquivo binário de entrada.
-* <arquivoDeSaida>: Caminho para o arquivo binário de saída.
-* <numeroDeThreads>: Número de threads a serem utilizadas.
 
 # Fluxo de Execução:
 
@@ -35,7 +28,13 @@
 * O programa principal (ep.c) é executado para ordenar o arquivo gerado.
 * O arquivo de saída é validado com ep_output_verificator.c.
 
-![diagrama do EP2](images/diagramEPmultithreaded.png)
+# Formato de Execução:
+./ep <arquivoDeEntrada> <arquivoDeSaida> <numeroDeThreads>
+
+
+* <arquivoDeEntrada>: Caminho para o arquivo binário de entrada.
+* <arquivoDeSaida>: Caminho para o arquivo binário de saída.
+* <numeroDeThreads>: Número de threads a serem utilizadas.
 
 # Objetivo:
 O projeto demonstra o uso de programação paralela com threads para melhorar o desempenho de algoritmos de ordenação em arquivos grandes em um sistema Linux. Ele também explora o uso de mapeamento de memória (mmap) para manipular arquivos binários de forma eficiente.
