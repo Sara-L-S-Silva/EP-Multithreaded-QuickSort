@@ -1,6 +1,6 @@
 # EP-Multithreaded-QuickSort
 
-# ./ep <arquivoDeEntrada> <arquivoDeSaida> <numeroDeThreads>Sobre:
+# Sobre:
   O projeto é um programa em C que implementa o algoritmo de ordenação quicksort utilizando múltiplas threads. O objetivo principal é ordenar um arquivo binário com registros baseando-se apenas nas chaves dos registros. A quantidade de threads utilizadas no processo é definida pelo usuário ao executar o programa.
 
 
