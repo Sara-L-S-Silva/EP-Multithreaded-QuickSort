@@ -29,7 +29,7 @@
 * O arquivo de saída é validado com ep_output_verificator.c.
 
 # Formato de Execução:
-//./ep < arquivoDeEntrada > < arquivoDeSaida > < numeroDeThreads >
+    ./ep < arquivoDeEntrada > < arquivoDeSaida > < numeroDeThreads >
 
 
 * <arquivoDeEntrada>: Caminho para o arquivo binário de entrada.
