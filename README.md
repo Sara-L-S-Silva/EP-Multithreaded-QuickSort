@@ -10,16 +10,16 @@
 # Principais funcionalidades:
 
 ## 1.Geração de Arquivos de Entrada:
-    O arquivo ep_input_generator.c é responsável por criar arquivos binários de entrada com registros. Cada registro possui uma chave (4 bytes) e dados adicionais (96 bytes). O usuário pode escolher se as chaves estarão em ordem crescente, decrescente ou aleatória.
+  O arquivo ep_input_generator.c é responsável por criar arquivos binários de entrada com registros. Cada registro possui uma chave (4 bytes) e dados adicionais (96 bytes). O usuário pode escolher se as chaves estarão em ordem crescente, decrescente ou aleatória.
 
 ## 2.Ordenação Multithreaded:
-    O arquivo principal, ep.c, implementa o quicksort multithreaded. Ele divide os registros do arquivo entre as threads, que ordenam suas respectivas seções. Após isso, as seções ordenadas são intercaladas para formar o arquivo final ordenado.
+  O arquivo principal, ep.c, implementa o quicksort multithreaded. Ele divide os registros do arquivo entre as threads, que ordenam suas respectivas seções. Após isso, as seções ordenadas são intercaladas para formar o arquivo final ordenado.
 
 ## 3.Verificação de Saída:
-        O arquivo ep_output_verificator.c verifica se o arquivo de saída está corretamente ordenado. Ele percorre os registros e valida se as chaves estão em ordem crescente.
+  O arquivo ep_output_verificator.c verifica se o arquivo de saída está corretamente ordenado. Ele percorre os registros e valida se as chaves estão em ordem crescente.
 
 ## 4.Cores no Terminal:
-        O arquivo color.c define macros para exibir mensagens coloridas no terminal, facilitando a visualização de informações.
+  O arquivo color.c define macros para exibir mensagens coloridas no terminal, facilitando a visualização de informações.
 
 
 # Fluxo de Execução:
